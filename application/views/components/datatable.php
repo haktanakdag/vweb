@@ -10,7 +10,6 @@
         </thead>
         <tbody>
       <?php if(!empty($data)): ?>
-
       <?php foreach($data as $fruit): ?>
 
       <tr>
