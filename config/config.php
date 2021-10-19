@@ -10,6 +10,6 @@ define("PASSWORD", "");
 
 // Base URL
 
-define("BASEURL", "http://localhost:8090/mvc3");
+define("BASEURL", "http://localhost:8090/vweb");
 
 ?>
