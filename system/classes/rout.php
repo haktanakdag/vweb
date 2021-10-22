@@ -4,7 +4,7 @@ class rout {
    
     // Default contorller, method, params
 
-    public $controller = "accountController";
+    public $controller = "welcomeController";
     public $method     = "index";
     public $params     = [];
 
