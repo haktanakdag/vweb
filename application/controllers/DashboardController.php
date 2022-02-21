@@ -3,8 +3,14 @@
 class DashboardController extends framework {
 
    public function index(){
-      $this->view("dashboard");
+      if($lx="as"){
+         $this->view("dashboard");
+      }else{
+         $this->view("menu");
+      }
+     
    }
+
 
 }
 

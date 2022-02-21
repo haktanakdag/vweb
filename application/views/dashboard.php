@@ -1,6 +1,5 @@
    <?php include "components/header.php" ?>
     <!-- Left Panel -->
- 
     <aside id="left-panel" class="left-panel">
         <nav class="navbar navbar-expand-sm navbar-default">
 
@@ -155,6 +154,11 @@
                     <div class="page-title">
                         <h1>Dashboard</h1>
                     </div>
+                    <?php
+                        if($lx=="asd"){
+                            echo "basıldı";
+                        }
+                    ?>
                 </div>
             </div>
             <div class="col-sm-8">
