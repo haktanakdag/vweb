@@ -7,8 +7,10 @@
     <li class="menu-item-has-children dropdown">
         <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-laptop"></i>Ana Tanımlar</a>
         <ul class="sub-menu children dropdown-menu">
-            <li><i class="fa fa-puzzle-piece"></i><a href="<?php echo BASEURL; ?>/DashboardController/fruitForm">Add Fruit</a></li>
-            <li><i class="fa fa-puzzle-piece"></i><a href="<?php echo BASEURL; ?>/DashboardController/maildegistir">Mail Değiştir</a></li>
+            <li><i class="fa fa-puzzle-piece"></i><a href="<?php echo BASEURL; ?>/DashboardController/changemail">Mail Değiştir</a></li>
+            <li><i class="fa fa-puzzle-piece"></i><a href="<?php echo BASEURL; ?>/DashboardController/changepassword">Şifre Değiştir</a></li>
+            <li><i class="fa fa-puzzle-piece"></i><a href="<?php echo BASEURL; ?>/DashboardController/User">Kullanıcılar</a></li>
+            <li><i class="fa fa-puzzle-piece"></i><a href="<?php echo BASEURL; ?>/DashboardController/profile">Profile</a></li>
             <li><i class="fa fa-id-badge"></i><a href="ui-badges.html">Badges</a></li>
             <li><i class="fa fa-bars"></i><a href="ui-tabs.html">Tabs</a></li>
             <li><i class="fa fa-share-square-o"></i><a href="ui-social-buttons.html">Social Buttons</a></li>

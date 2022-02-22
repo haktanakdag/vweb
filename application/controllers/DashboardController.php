@@ -3,16 +3,25 @@
 class DashboardController extends framework {
 
    public function index(){
-      if($lx="as"){
+     
          $this->view("dashboard");
-      }else{
-         $this->view("menu");
-      }
+      
      
    }
 
-   public function MailDegistir(){
-      $this->view("dashboard",array("key"=>"maildegistir.php"));
+   
+   public function ChangeMail(){
+      $this->view("dashboard",array("key"=>""));
+    }
+    
+   public function ChangePassword(){
+      $this->view("dashboard",array("key"=>""));
+    }
+   public function User(){
+      $this->view("dashboard",array("key"=>"User.php"));
+    }
+    public function Profile(){
+      $this->view("dashboard",array("key"=>"profile"));
     }
 
 }
