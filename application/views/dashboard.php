@@ -1,3 +1,4 @@
+
    <?php include "components/header.php" ?>
     <!-- Left Panel -->
     <aside id="left-panel" class="left-panel">
@@ -147,7 +148,6 @@
 
         </header><!-- /header -->
         <!-- Header-->
-
         <div class="breadcrumbs">
             <div class="col-sm-4">
                 <div class="page-header float-left">
@@ -155,9 +155,7 @@
                         <h1>Dashboard</h1>
                     </div>
                     <?php
-                        if($lx=="asd"){
-                            echo "basıldı";
-                        }
+                        include($data["key"]);
                     ?>
                 </div>
             </div>

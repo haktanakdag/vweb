@@ -11,6 +11,9 @@ class DashboardController extends framework {
      
    }
 
+   public function MailDegistir(){
+      $this->view("dashboard",array("key"=>"maildegistir.php"));
+    }
 
 }
 
